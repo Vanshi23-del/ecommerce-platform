@@ -107,6 +107,8 @@ from the dashboard's "Users \& roles" tab.
 * Frontend (Vercel): https://ecommerce-platform-kappa-nine.vercel.app
 * Backend (Render): https://ecommerce-backend-ys4j.onrender.com
 
+> **Note:** The backend is hosted on Render's free tier, which spins down after periods of inactivity. If the app hasn't been used recently, the first request (e.g. loading products, logging in) may take 30–50 seconds while the server wakes up. Subsequent requests will be fast.
+
 ## Feature Completion Summary
 
 |Feature|Implementation|
